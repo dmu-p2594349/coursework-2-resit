@@ -28,6 +28,20 @@ header > img {
   margin-right: var(--default-spacing)
 }
 
+.topnav a {
+  display:block;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding:0;
+  overflow:hidden;
+  text-decoration: none;
+  float: none;
+  font-size: 1.5625rem;
+  text-align: center;
+  margin-left: var(--default-spacing)
+}
+
 h2 {
   font-size: 1.2rem
 }
