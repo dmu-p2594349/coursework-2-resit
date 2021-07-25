@@ -1,18 +1,35 @@
 /* Import Google font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap');
 
+:root {
+  --default-spacing: 0.9375rem;
+}
+
 body {
   font-family: Roboto, Helvetica, sans-serif;
   background-color: #efefef;
   margin: 0px;
 }
 
+h2 {
+  font-size: 1.2rem
+}
+
+.title {
+  text-align: center;
+}
+
 .container {
-  padding: 8px;
+  padding: var(--default-spacing);
   background-color: white;
   width: 100%;
   max-width: 64rem;
   margin-left: auto;
   margin-right: auto;
   height: 100vh;
+}
+
+.floating-left-media {
+  margin-right: var(--default-spacing);
+  float: left;
 }
