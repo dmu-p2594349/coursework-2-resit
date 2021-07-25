@@ -1,0 +1,13 @@
+/* Import Google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap');
+
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+}
