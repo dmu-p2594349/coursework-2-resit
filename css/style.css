@@ -15,6 +15,15 @@ h2 {
   font-size: 1.2rem
 }
 
+header {
+  display: flex;
+}
+
+header > img {
+  width: 30px;
+  margin-right: var(--default-spacing)
+}
+
 .title {
   text-align: center;
 }
