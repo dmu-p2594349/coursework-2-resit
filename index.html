@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" rel="stylesheet">
     <title>Skaters of the South</title>
+    <script src="js/scripts.js"></script>
   </head>
   <body>
     <section class="container" role="main">
@@ -15,6 +16,16 @@
         <img src="img/hamburger.svg" alt="Access menu">
         <h1 class="title">Skaters of the South</h1>
       </header>
+      <nav>
+        <ul>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="skating-spots-and-parks.html">Skating spots and parks</a>
+          </li>
+        </ul>
+      </nav>
       <article>
         <h2>Welcome</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
@@ -22,6 +33,10 @@
         eleifend ipsum felis ac arcu. Nulla luctus eget urna et pretium.
         Aliquam ut finibus ligula. Vestibulum non magna ipsum. Pellentesque
         diam dolor, pharetra vel euismod a, accumsan ut quam.</p>
+        <form>
+          <input type="text" id="nameField" placeholder="Enter your name">
+          <button onclick="sayHello()">Say Hi!</button>
+        </form>
       </article>
       <article>
         <h2>Clip of the day</h2>
