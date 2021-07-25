@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="description" content="Skaters of the south">
+    <meta name="keywords" content="Skaters, south">
+    <meta name="author" content="Bertie Nichols">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Skaters of the South</title>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <section class="container" role="main">
+      <header>
+        <img src="img/hamburger.svg" alt="Access menu">
+        <h1 class="title"><a href="index.html">Skaters of the South</a></h1>
+      </header>
+      <nav>
+        <ul>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="skating-spots-and-parks.html">Skating spots and parks</a>
+          </li>
+        </ul>
+      </nav>
+      <article>
+        <h2>Contact</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+        condimentum, nibh ac aliquet volutpat, nisl dui maximus nisl, a
+        eleifend ipsum felis ac arcu. Nulla luctus eget urna et pretium.
+        Aliquam ut finibus ligula. Vestibulum non magna ipsum. Pellentesque
+        diam dolor, pharetra vel euismod a, accumsan ut quam.</p>
+        <form>
+          <div class="formField">
+            <label for="clipOfTheWeek-fullName">
+              Name<br/>
+              <input type="text" id="clipOfTheWeek-fullName" name="fullName" required>
+            </label>
+          </div>
+          <div class="formField">
+            <label for="clipOfTheWeek-ride">
+              Ride<br/>
+              <input type="text" id="clipOfTheWeek-ride" name="ride" required>
+            </label>
+          </div>
+          <div class="formField">
+            <label for="clipOfTheWeek-url">
+              URL<br/>
+              <input type="text" id="clipOfTheWeek-url" name="url" required>
+            </label>
+          </div>
+          <div class="formField">
+            <button onClick="submitClipOfTheWeek()">Submit</button>
+          </div>
+        </form>
+      </article>
+    </section>
+  </body>
+</html>
